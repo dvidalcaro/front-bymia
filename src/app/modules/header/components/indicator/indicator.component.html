@@ -6,7 +6,7 @@
     </span>
 </ng-template>
 
-<button *ngIf="link === null" type="button" class="indicator__button dieguito" (click)="onClick($event)">
+<button *ngIf="link === null" type="button" class="indicator__button" (click)="onClick($event)">
     <ng-container *ngTemplateOutlet="buttonContent"></ng-container>
 </button>
 
