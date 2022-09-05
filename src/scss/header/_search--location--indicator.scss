@@ -6,7 +6,7 @@
 
 
 $local-height: 50px;
-$local-width: 340px;
+$local-width: 710px;
 
 
 .search--location--indicator {
@@ -15,6 +15,10 @@ $local-width: 340px;
         background: $indicator-search-bg;
         box-shadow: $indicator-search-shadow;
         width: $local-width;
+        position: relative;
+        left: -200px;
+        top: -75px;
+        border-radius: 30px;
     }
     .search__form {
         display: flex;
