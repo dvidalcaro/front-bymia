@@ -311,7 +311,7 @@
       $nav-panel-stuck-shadow: 0 1px rgba(#000, .02), inset 0 -1px rgba(#000, .03), 0 1px 20px rgba(#000, .15) !default;
       $nav-panel-font-color:   $light-color                                                                    !default;
       $nav-panel-logo-color:   $nav-panel-font-color                                                           !default;
-      $nav-panel-height:       100px                                                                            !default;
+      $nav-panel-height:       100px                                                                           !default;
       $nav-panel-padding:      6px                                                                             !default;
 
    // ----------------------------------------
@@ -338,7 +338,7 @@
       $nav-links-item-default-font-color:  inherit                                    !default;
       $nav-links-item-default-arrow-color: $light-color                             !default;
       // hover
-      $nav-links-item-hover-bg:            rgba(#fff, .5)                             !default;
+      $nav-links-item-hover-bg:            none                             !default;
       $nav-links-item-hover-shadow:        $nav-links-item-default-shadow             !default;
       $nav-links-item-hover-font-color:    $nav-links-item-default-font-color         !default;
       $nav-links-item-hover-arrow-color:   $nav-links-item-default-arrow-color        !default;

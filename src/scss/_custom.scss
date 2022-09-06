@@ -1,3 +1,19 @@
 // -------------------------
 // --- You can add your custom CSS here and it will overwrite template styles.
 // -------------------------
+.cuenta{
+    display: flex;
+    
+    flex-wrap:nowrap ;
+    align-items: center;
+    background-color: aquamarine;
+    height: 30px;
+    margin-top: 35px;
+    border-radius: 50px;
+}
+
+.cuenta span{
+    color: black;
+    padding-right: 15px;
+}
+

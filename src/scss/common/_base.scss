@@ -20,6 +20,7 @@ body {
     color: $body-font-color;
     backface-visibility: hidden;
     overflow-y: scroll;
+    width: 100%;
 
     @include direction {
         text-align: $inline-start;

@@ -5,7 +5,7 @@ export const navigation: NavigationLink[] = [
     {label: 'Faq', url:'/'},    
     {label: 'Ofertas', url: '/'},
     {label: 'Lanzamientos', url: '/'},
-    {label: 'Flash Sales', url: '/'},
+    {label: 'Flash Sales', url: '/account'},
     {label: 'Precio de Lista', url: '/'
 }
     

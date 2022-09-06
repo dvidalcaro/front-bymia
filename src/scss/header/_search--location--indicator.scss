@@ -5,19 +5,28 @@
 @import '../mixins/direction';
 
 
-$local-height: 50px;
-$local-width: 710px;
+$local-height: 40px;
+$local-width: 630px;
 
 
 .search--location--indicator {
+    .search__category{
+        color: black;
+        background: aquamarine;
+        border: none;
+        border-radius: 50px 0px 0px 50px;
+        box-shadow: $indicator-search-shadow;
+        width: 100px;
+        padding-left: 5px;
+    }
     .search__body {
         color: $indicator-search-font-color;
         background: $indicator-search-bg;
         box-shadow: $indicator-search-shadow;
         width: $local-width;
         position: relative;
-        left: -200px;
-        top: -75px;
+        left: -276px;
+        top: -70px;
         border-radius: 30px;
     }
     .search__form {
@@ -60,7 +69,7 @@ $local-width: 710px;
         transition: fill .2s;
     }
     .search__button:hover {
-        fill: $indicator-search-button-hover-color;
+        fill: black; // $indicator-search-button-hover-color
     }
 
     &.search--has-suggestions.search--suggestions-open {
