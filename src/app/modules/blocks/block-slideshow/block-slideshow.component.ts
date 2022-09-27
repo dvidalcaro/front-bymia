@@ -22,7 +22,7 @@ export class BlockSlideshowComponent {
 
     slides = [
         {
-            title: 'Big choice of<br>Plumbing products',
+            title: 'Comprá todos tus favoritos tech en un solo lugar',
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Etiam pharetra laoreet dui quis molestie.',
             image_classic: 'assets/images/slides/slide-1.jpg',
             image_full: 'assets/images/slides/slide-1-full.jp',
